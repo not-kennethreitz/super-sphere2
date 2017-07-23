@@ -5,3 +5,4 @@ dist/supersphere2-app-OSX.zip
 dist/supersphere-ANDROID.apk
 dist/supersphere2-ios.love
 dist/android/.gradle/
+dist/ios/platform/xcode/supersphere2-ios.love
