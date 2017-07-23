@@ -17,7 +17,7 @@
 		A9D307F2106635D3004FEDF8 /* physfs.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A9D307E9106635C3004FEDF8 /* physfs.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A9F169AC109E825000FC83D1 /* mpg123.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A9F169A6109E824900FC83D1 /* mpg123.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A9F169AD109E825000FC83D1 /* libmodplug.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A9F16926109E7BAD00FC83D1 /* libmodplug.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		D238868F1F1EB64400C0A611 /* supersphere.love in Resources */ = {isa = PBXBuildFile; fileRef = D238868E1F1EB64400C0A611 /* supersphere.love */; };
+		D209957C1F2555970063B52C /* supersphere2-ios.love in Resources */ = {isa = PBXBuildFile; fileRef = D209957B1F2555970063B52C /* supersphere2-ios.love */; };
 		FA0797991BF480A200034B7C /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0797981BF480A200034B7C /* GameController.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FA08F69616C766E000F007B5 /* love.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA08F69116C765A200F007B5 /* love.framework */; };
 		FA08F69716C766E700F007B5 /* love.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FA08F69116C765A200F007B5 /* love.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -111,7 +111,7 @@
 		A9D307E9106635C3004FEDF8 /* physfs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = physfs.framework; path = /Library/Frameworks/physfs.framework; sourceTree = "<absolute>"; };
 		A9F16926109E7BAD00FC83D1 /* libmodplug.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libmodplug.framework; path = /Library/Frameworks/libmodplug.framework; sourceTree = "<absolute>"; };
 		A9F169A6109E824900FC83D1 /* mpg123.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mpg123.framework; path = /Library/Frameworks/mpg123.framework; sourceTree = "<absolute>"; };
-		D238868E1F1EB64400C0A611 /* supersphere.love */ = {isa = PBXFileReference; lastKnownFileType = file; name = supersphere.love; path = ../../../supersphere.love; sourceTree = "<group>"; };
+		D209957B1F2555970063B52C /* supersphere2-ios.love */ = {isa = PBXFileReference; lastKnownFileType = file; name = "supersphere2-ios.love"; path = "../../../supersphere2-ios.love"; sourceTree = "<group>"; };
 		D2D8C9EA1F206F1B005F2A12 /* love.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = love.entitlements; sourceTree = "<group>"; };
 		FA0797981BF480A200034B7C /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		FA08F69116C765A200F007B5 /* love.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = love.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,7 +206,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D238868E1F1EB64400C0A611 /* supersphere.love */,
+				D209957B1F2555970063B52C /* supersphere2-ios.love */,
 				FAC1A448196F5DC600125284 /* license.txt */,
 			);
 			name = Resources;
@@ -399,8 +399,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA5D249C1A96CF4300C6FC8F /* Images.xcassets in Resources */,
+				D209957C1F2555970063B52C /* supersphere2-ios.love in Resources */,
 				FA7C636A1A9C49570000FD29 /* Launch Screen.xib in Resources */,
-				D238868F1F1EB64400C0A611 /* supersphere.love in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
