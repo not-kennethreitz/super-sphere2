@@ -5,9 +5,8 @@ keys = require('keys')
 sound = require('sound')
 game = require('game')
 
-local FONT_HEIGHT = 72
 local INTRO_LENGTH = 1
-local DEATH_LENGTH = 0.8
+local DEATH_LENGTH = 1.7
 local GAME_NAME = 'Super Sphere II'
 
 -- Game States.
@@ -38,6 +37,11 @@ Signal.register('death', function()
     Gamestate.switch(dead)
 end)
 
+function update_font()
+    FONT_HEIGHT = Y/15
+    font = love.graphics.newFont('assets/leaguespartan-bold.ttf', FONT_HEIGHT)
+    love.graphics.setFont(font, FONT_HEIGHT)
+end
 
 function love.load()
     -- Dimensions.
@@ -55,8 +59,7 @@ function love.load()
     jump_sound = love.audio.newSource('assets/jump.wav')
     eat_sound = love.audio.newSource('assets/eat.wav')
 
-    font = love.graphics.newFont('assets/leaguespartan-bold.ttf', FONT_HEIGHT)
-    love.graphics.setFont(font, 55)
+    update_font()
 
     -- The operating system.
     mobile = (love.system.getOS() == 'iOS') or (love.system.getOS() == 'Android')
@@ -71,6 +74,7 @@ end
 
 function love.resize(w, h)
     X, Y = love.graphics.getDimensions()
+    update_font()
 end
 
 
