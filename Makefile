@@ -9,7 +9,7 @@ ios:
 	mv conf.lua conf.default.lua
 	mv conf.mobile.lua conf.lua
 
-	zip -r dist/supersphere2-ios.love assets vendor *.lua
+	zip -r dist/supersphere2-ios.love mechanics assets vendor *.lua
 
 	mv conf.lua conf.mobile.lua
 	mv conf.default.lua conf.lua

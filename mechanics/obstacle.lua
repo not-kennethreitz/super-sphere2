@@ -1,4 +1,4 @@
-Breath = require('mechanics/Breath')
+Breath = require('mechanics/breath')
 
 local POISON_RATE = 80
 
