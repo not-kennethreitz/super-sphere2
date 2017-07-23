@@ -208,7 +208,7 @@ end
 
 function draw_score()
     love.graphics.setColor({255, 255, 255})
-    love.graphics.printf(game:visual_score(), (X/24)*1, ((Y/12)*1 - FONT_HEIGHT/2), (X/24)*3, 'left')
+    love.graphics.printf(game:visual_score(), (X/24)*1, ((Y/12)*1 - FONT_HEIGHT/2), X, 'left')
 end
 
 function play:draw()
