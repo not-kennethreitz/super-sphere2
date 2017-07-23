@@ -247,10 +247,6 @@ function play:joystickpressed(joystick, button)
 
     Signal.emit('user-input')
     Signal.emit(button)
-    -- print(joystick:getButtonCount())
-
-    -- print(js:getButtonCount())
-    -- print(button)
 end
 
 function play:keypressed(key, scancode, isrepeat)
@@ -276,7 +272,6 @@ end
 Signal.register('game-over', function()
     print('Game Over!')
     Gamestate.switch(dead)
-    -- Timer.clear()
 end)
 
 Signal.register('quit', function()
