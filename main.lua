@@ -3,7 +3,7 @@ Signal = require('vendor/hump.signal')
 Gamestate = require('vendor/hump.gamestate')
 keys = require('keys')
 sound = require('sound')
-game = require('game')
+game = require('mechanics/game')
 
 local INTRO_LENGTH = 1
 local DEATH_LENGTH = 1.7
