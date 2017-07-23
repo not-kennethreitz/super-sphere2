@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="org.kennethreitz.supersphere.android.executable"
+<manifest package="org.kennethreitz.supersphere2.android.executable"
       android:installLocation="auto" xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.VIBRATE"/>
@@ -19,7 +19,7 @@
       <activity
         android:name="org.love2d.android.GameActivity"
         android:configChanges="orientation|screenSize"
-        android:label="Super Sphere"
+        android:label="Super Sphere II"
         android:launchMode="singleTop"
         android:screenOrientation="landscape" >
         <intent-filter>
@@ -44,7 +44,7 @@
         </intent-filter>
       </activity>
       <activity
-        android:name="org.kennethreitz.supersphere.android.DownloadActivity"
+        android:name="org.kennethreitz.supersphere2.android.DownloadActivity"
         android:noHistory="true" >
         <intent-filter>
           <action android:name="android.intent.action.VIEW" />

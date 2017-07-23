@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "org.kennethreitz.supersphere.android"
+        applicationId "org.kennethreitz.supersphere2.android"
         versionCode 22
         versionName "0.10.2"
         minSdkVersion 10
