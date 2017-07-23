@@ -4,6 +4,8 @@ The second game entry in the **Super Sphere!** series. A minimal action game by 
 
 ![](http://share.kennethreitz.org/0r081I1n3J2J/Screen%20Shot%202017-07-23%20at%204.36.31%20PM.png)
 
+Free [builds are available](https://github.com/kennethreitz/super-sphere2/releases) for MacOS, Android, Windows, and Löve2D.
+
 # Advanced Features 
 
 - Mac, iOS, Android, Windows devices.
