@@ -38,7 +38,7 @@ android:
 	mv conf.lua conf.mobile.lua
 	mv conf.default.lua conf.lua
 
-	cp dist/supersphere.love dist/android/app/src/main/assets/game.love
+	cp dist/supersphere2.love dist/android/app/src/main/assets/game.love
 	cd dist/android && ./gradlew build
 	mv dist/android/app/build/outputs/apk/app-debug.apk dist/supersphere-ANDROID.apk
 	rm -fr dist/android/app/src/main/assets/game.love
