@@ -3,7 +3,7 @@ run: love
 
 love:
 	rm -fr supersphere2.love
-	zip -r dist/supersphere2.love assets vendor *.lua
+	zip -r dist/supersphere2.love mechanics assets vendor *.lua
 
 ios:
 	mv conf.lua conf.default.lua
