@@ -14,4 +14,4 @@ Free [builds are available](https://github.com/kennethreitz/super-sphere2/releas
 
 # See Also
 
-- [Super Sphere!](https://github.com/kennethreitz/super-sphere).
+- [Super Sphere!](https://github.com/kennethreitz/super-sphere)
