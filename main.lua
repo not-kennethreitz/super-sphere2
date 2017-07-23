@@ -184,10 +184,6 @@ end
 -- The Game.
 -- --------
 
-function play:enter()
-    -- Signal.emit('started')
-end
-
 function draw_background()
     -- Left Side
     love.graphics.setColor({255, 255, 255, 25})
