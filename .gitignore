@@ -2,3 +2,6 @@ dist/supersphere2-WIN.zip
 dist/supersphere2.love
 dist/macos/Super Sphere II.app/Contents/Resources/supersphere2.love
 dist/supersphere2-app-OSX.zip
+dist/supersphere-ANDROID.apk
+dist/supersphere2-ios.love
+dist/android/.gradle/
