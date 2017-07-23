@@ -16,6 +16,15 @@ Signal.register('unpause', function()
     love.audio.resume()
 end)
 
+Signal.register('game-over-started', function()
+    game_over_music:play()
+end)
+
+Signal.register('game-over-finished', function()
+    game_over_music:stop()
+end)
+
+
 Signal.register('jump', function()
     jump_sound:setPitch(0.9)
     jump_sound:play()

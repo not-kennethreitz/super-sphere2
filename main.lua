@@ -49,6 +49,9 @@ function love.load()
     music = love.audio.newSource('assets/music.mp3')
     music:setLooping(true)
 
+    game_over_music = love.audio.newSource('assets/game-over.wav')
+    game_over_music:setLooping(true)
+
     jump_sound = love.audio.newSource('assets/jump.wav')
     eat_sound = love.audio.newSource('assets/eat.wav')
 
@@ -137,12 +140,12 @@ function dead:enter()
 
     Timer.after(DEATH_LENGTH, function()
         dead.clear = true
-        Signal.emit('game-over-finished')
     end)
 end
 
-function dead:exit()
+function dead:leave()
     dead.clear = false
+    Signal.emit('game-over-finished')
 end
 
 function dead:draw()
