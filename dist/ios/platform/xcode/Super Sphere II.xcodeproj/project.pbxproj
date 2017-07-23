@@ -115,7 +115,7 @@
 		D2D8C9EA1F206F1B005F2A12 /* love.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = love.entitlements; sourceTree = "<group>"; };
 		FA0797981BF480A200034B7C /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		FA08F69116C765A200F007B5 /* love.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = love.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA0B7F061A95AAF3000E1D17 /* Some Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Some Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0B7F061A95AAF3000E1D17 /* Super Sphere II.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Sphere II.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA27B3CA1B498696008A9DCE /* Theora.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Theora.framework; path = /Library/Frameworks/Theora.framework; sourceTree = "<absolute>"; };
 		FA577A9316C7217800860150 /* liblove.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = liblove.xcodeproj; sourceTree = "<group>"; };
 		FA5D24811A96CA1800C6FC8F /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/OpenAL.framework; sourceTree = DEVELOPER_DIR; };
@@ -182,7 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* love.app */,
-				FA0B7F061A95AAF3000E1D17 /* Some Game.app */,
+				FA0B7F061A95AAF3000E1D17 /* Super Sphere II.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -314,7 +314,7 @@
 			);
 			name = "love-ios";
 			productName = "love-ios";
-			productReference = FA0B7F061A95AAF3000E1D17 /* Some Game.app */;
+			productReference = FA0B7F061A95AAF3000E1D17 /* Super Sphere II.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -340,7 +340,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Some Game" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Super Sphere II" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -655,8 +655,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.kennethreitz.somegame;
-				PRODUCT_NAME = "Some Game";
+				PRODUCT_BUNDLE_IDENTIFIER = org.kennethreitz.supersphere2;
+				PRODUCT_NAME = "Super Sphere II";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -699,8 +699,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.kennethreitz.somegame;
-				PRODUCT_NAME = "Some Game";
+				PRODUCT_BUNDLE_IDENTIFIER = org.kennethreitz.supersphere2;
+				PRODUCT_NAME = "Super Sphere II";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -744,8 +744,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.kennethreitz.somegame;
-				PRODUCT_NAME = "Some Game";
+				PRODUCT_BUNDLE_IDENTIFIER = org.kennethreitz.supersphere2;
+				PRODUCT_NAME = "Super Sphere II";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -855,7 +855,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Some Game" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Super Sphere II" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

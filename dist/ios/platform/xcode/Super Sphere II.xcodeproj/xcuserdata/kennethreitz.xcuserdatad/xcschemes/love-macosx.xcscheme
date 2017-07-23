@@ -17,7 +17,7 @@
                BlueprintIdentifier = "8D1107260486CEB800E47090"
                BuildableName = "love.app"
                BlueprintName = "love-macosx"
-               ReferencedContainer = "container:Some Game.xcodeproj">
+               ReferencedContainer = "container:Super Sphere II.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,7 +36,7 @@
             BlueprintIdentifier = "8D1107260486CEB800E47090"
             BuildableName = "love.app"
             BlueprintName = "love-macosx"
-            ReferencedContainer = "container:Some Game.xcodeproj">
+            ReferencedContainer = "container:Super Sphere II.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -60,7 +60,7 @@
             BlueprintIdentifier = "8D1107260486CEB800E47090"
             BuildableName = "love.app"
             BlueprintName = "love-macosx"
-            ReferencedContainer = "container:Some Game.xcodeproj">
+            ReferencedContainer = "container:Super Sphere II.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,7 +79,7 @@
             BlueprintIdentifier = "8D1107260486CEB800E47090"
             BuildableName = "love.app"
             BlueprintName = "love-macosx"
-            ReferencedContainer = "container:Some Game.xcodeproj">
+            ReferencedContainer = "container:Super Sphere II.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

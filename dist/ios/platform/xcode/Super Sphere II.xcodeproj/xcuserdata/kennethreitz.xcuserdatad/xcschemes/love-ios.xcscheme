@@ -17,7 +17,7 @@
                BlueprintIdentifier = "FA0B7F051A95AAF3000E1D17"
                BuildableName = "Some Game.app"
                BlueprintName = "love-ios"
-               ReferencedContainer = "container:Some Game.xcodeproj">
+               ReferencedContainer = "container:Super Sphere II.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,7 +36,7 @@
             BlueprintIdentifier = "FA0B7F051A95AAF3000E1D17"
             BuildableName = "Some Game.app"
             BlueprintName = "love-ios"
-            ReferencedContainer = "container:Some Game.xcodeproj">
+            ReferencedContainer = "container:Super Sphere II.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -60,7 +60,7 @@
             BlueprintIdentifier = "FA0B7F051A95AAF3000E1D17"
             BuildableName = "Some Game.app"
             BlueprintName = "love-ios"
-            ReferencedContainer = "container:Some Game.xcodeproj">
+            ReferencedContainer = "container:Super Sphere II.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,7 +79,7 @@
             BlueprintIdentifier = "FA0B7F051A95AAF3000E1D17"
             BuildableName = "Some Game.app"
             BlueprintName = "love-ios"
-            ReferencedContainer = "container:Some Game.xcodeproj">
+            ReferencedContainer = "container:Super Sphere II.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
